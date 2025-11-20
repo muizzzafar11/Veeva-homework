@@ -68,7 +68,6 @@ public class CarbCalculatorHelper {
         new Select(driver.findElement(By.name("cactivity"))).selectByValue(value);
     }
 
-    // ====== SETTINGS ======
     public void openSettings() {
         driver.findElement(By.xpath("//a[contains(text(),'Settings')]")).click();
     }
